@@ -23,6 +23,7 @@ def GetPageContent(tar_url):
                               'Accept-Encoding': 'gzip, deflate, compress',
                               'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6,ru;q=0.4',
                               'Cache-Control': 'no-cache',
+                              'Host': 'www.66ip.cn',   #  目前只用了一个网址的代理Ip ，发现已经够用，就增加这个
                               'Connection': 'keep-alive',
                               'Upgrade-Insecure-Requests': "1",
                               'User-Agent': choice(config.UserAgents)
